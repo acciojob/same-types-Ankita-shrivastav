@@ -1,6 +1,6 @@
 function isSameType(value1, value2) {
   //your js code here
-	return typeOf value1 === typeOf value2;
+	return typeof value1 === typeof value2;
 }
 console.log (isSameType(1,3));
 console.log(isSameType("hey","hello"));
